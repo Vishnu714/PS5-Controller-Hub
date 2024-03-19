@@ -15,7 +15,7 @@ PS5 Controller Hub is a marketing website dedicated to showcasing the latest fea
 PS5 Controller Hub serves as a one-stop destination for gamers, enthusiasts, and newcomers to explore and learn about the innovative features and capabilities of the PS5 controller. Whether you're a seasoned gamer looking to upgrade your gaming gear or a newcomer intrigued by the latest advancements in gaming technology, our platform provides valuable insights and resources to enhance your gaming experience.
 
 ### Website Link
-[PS5 Controller Hub]("")
+[PS5 Controller Hub]( https://vishnu714.github.io/PS5-Controller-Hub/)
 
 ### Contribution
 Contributions to PS5 Controller Hub are encouraged! If you have suggestions, feature requests, or would like to contribute content or code improvements, please feel free to open an issue or submit a pull request on GitHub.
