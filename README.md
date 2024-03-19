@@ -1,6 +1,5 @@
 # PS5-Controller-Hub
 
-## PS5 Controller Hub
 
 ### Overview
 PS5 Controller Hub is a marketing website dedicated to showcasing the latest features, designs, and innovations of the PlayStation 5 (PS5) controller. Our platform aims to provide comprehensive information about the PS5 controller's capabilities, accessories, and compatibility with gaming systems.
