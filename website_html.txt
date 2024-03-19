@@ -1,0 +1,92 @@
+<!-- <!DOCTYPE html>
+<html>
+<head> 
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>PS5 CONTROLLER AD (DESGIN) </title>
+    <link rel="stylesheet" href="website.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="/project images/gaming/logo.png" class="logo">
+            <nav>
+                <ul id="menulist">
+                    <li><a href=""> Game Controllers |</a></li>
+                    <li><a href="">VR Accessories |</a></li>
+                    <li><a href="">Media Remotes |</a></li>
+                    <li><a href="">Others</a></li>
+                </ul>
+            </nav>
+            <img src="/project images/gaming/menu.png" class="menu" onclick="togglemenu()">
+
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>PS5 v2<br>Dualshock 5</h2>
+                <h3>Wireless controller for playstation 5</h3>
+                <p>Compatible with PS4 and PS5/Generic</p>
+                <h4>$50.40</h4>
+                <button type="button">Buy Now<img src="/project images/gaming/arrow.png" class="arrow"></button>
+            </div>
+            <div class="col-2">
+                <div class="color-box"></div>
+                <div class="color-box1"></div>
+            </div>
+        </div>      
+        <div class="social-link">
+            <img src="project images/gaming/fb.png">
+            <img src="project images/gaming/ig.png">
+            <img src="project images/gaming/tw.png">
+        </div>
+    </div>
+    
+   
+</body> 
+
+
+
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+<head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS5 CONTROLLER AD (DESIGN)</title>
+    <link rel="stylesheet" href="website.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="/project-images/gaming/logo.png" class="logo">
+            <nav>
+                <ul id="menulist">
+                    <li><a href="">Game Controllers |</a></li>
+                    <li><a href="">VR Accessories |</a></li>
+                    <li><a href="">Media Remotes |</a></li>
+                    <li><a href="">Others</a></li>
+                </ul>
+            </nav>
+            <img src="/project-images/gaming/menu.png" class="menu" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>PS5 v2<br>Dualshock 5</h2>
+                <h3>Wireless controller for PlayStation 5</h3>
+                <p>Compatible with PS4 and PS5/Generic</p>
+                <h4>$50.40</h4>
+                <button type="button">Buy Now<img src="/project-images/gaming/arrow.png" class="arrow"></button>
+            </div>
+            <div class="col-2">
+                <div class="color-box"></div>
+                <div class="color-box1"></div>
+            </div>
+        </div>      
+        <div class="social-link">
+            <img src="project-images/gaming/fb.png">
+            <img src="project-images/gaming/ig.png">
+            <img src="project-images/gaming/tw.png">
+        </div>
+    </div> 
+</body>
+</html> -->

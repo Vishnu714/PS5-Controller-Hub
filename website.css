@@ -1,0 +1,403 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 8%;
+    box-sizing: border-box;
+    background-image: url("https://gmedia.playstation.com/is/image/SIEPDC/dualsense-controllers-image-block-01-en-12may21?$native--t$"), url("https://cdn141.picsart.com/278422301078211.png?type=webp&to=min&r=640");
+    background-size: 60%, cover;
+    background-position: right center,center  ;
+    /* background-position: 0 0, 0 -100px; */
+    background-color: hwb(0 0% 100% / 0.096);
+    background-repeat: no-repeat, no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; /* Adjusted to add space between row and social links */
+
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 8%;
+    box-sizing: border-box;
+    background-color: hwb(0 100% 0% / 0.051);
+    z-index: 999;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
+    flex-direction: row;
+}
+.logo {
+    margin-right:1000px;
+    width: 200px;
+    width: var(--controller-width, 300px);
+}
+
+.menu {
+    width: 30px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+}
+nav ul li a:hover{
+    color: rgb(119, 23, 55);
+}
+
+.row {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 350px;
+    margin-left: 2.5%;
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.col-1 {
+    flex-basis: 100%;
+    text-align: left;
+}
+
+.col-1 h2 {
+    font-size: 5rem;
+}
+
+.col-1 h3 {
+    font-size: 2rem;
+    color: #333;
+    margin: 20px 0;
+}
+
+.col-1 {
+    flex-basis: 1%;
+    text-align: left; /* Align contents to the left */
+    margin-right: 50px; /* Adjusted margin to separate from the other column */
+}
+
+
+.col-1 p {
+    color: #555;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+button{
+    width: 250px; /* Set the width to 250 pixels */
+    height: 80px; /* Set the height to 50 pixels */
+    padding: 10px 5px;
+    border: 0;
+    outline: none;
+    background: linear-gradient(to right, rgb(104, 6, 104), rgb(185, 24, 45));
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background:  linear-gradient(to right, rgb(185, 24, 45), rgb(104, 6, 104));
+}
+
+button img {
+    width: 45px;
+    margin-left: 10px;
+}
+
+.color-box,
+.color-box1,
+.color-box2,
+.color-box3 {
+    position: absolute;
+    height: 70px; /* Adjust height as needed */
+    width: 70px; /* Adjust width as needed */
+    background: linear-gradient(to right, rgb(185, 24, 45), rgb(104, 6, 104));
+    border-radius: 35px;
+    z-index: -2; /* Adjusted z-index to be lower than other content */
+}
+
+.color-box {
+    top: 700px;
+    right: 70px;
+    height: 750px;
+    width: 1650px;
+}
+
+
+.color-box1 {
+
+    bottom: 585px;
+    left: 250px;
+    height: 500px;
+    width: 20px;
+}
+.color-box3 {
+
+    bottom: 20px;
+    left: 50px;
+    height: 450px;
+    width: 1000px;
+}
+.color-box2 {
+
+    top: 130px;
+    left: 20px;
+    height: 300px;
+    width: 1550px;
+}
+.color-box4 {
+    position: absolute;
+    top:190px;
+    left: 280px;
+    height: 100px;
+    width: 790px;
+    background:rgb(255, 255, 255); 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 35px;
+}
+.text1 {
+    position: absolute;
+    top: 180px;
+    left: 2100px;
+    height: 300px;
+    width: 1550px;
+    font-size: 2.2rem;
+    font-family: monospace;
+    color: rgb(0, 0, 0); /* Set text color to white */
+    text-shadow: 1px 1px 2px rgb(77, 75, 75); /* Add a slight shadow effect */
+    z-index: 0;
+}
+.text2 {
+    position: absolute;
+    bottom: 360px;
+    left: 1200px;
+    height: 300px;
+    width: 1550px;
+    font-size: 2rem;
+    font-family: monospace;
+    color: rgb(255, 255, 255); /* Set text color to white */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1); /* Add a slight shadow effect */
+    z-index: -1;
+}
+.text3 {
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    font-size: 21px;
+    font-size: 1.8rem;
+    font-family: monospace;
+    color: rgb(0, 0, 0); /* Set text color to white */
+    text-shadow: 1px 1px 2px rgb(0, 0, 0); /* Add a slight shadow effect */
+    font-style: italic;
+    z-index: -1;
+}
+.text4 {
+    text-align: right;
+    position: absolute;
+    bottom: 40px;
+    left: 800px;
+    font-size: 21px;
+    font-size: 1.8rem;
+    font-family: monospace;
+    color: rgb(0, 0, 0); /* Set text color to white */
+    text-shadow: 1px 1px 2px rgb(0, 0, 0); /* Add a slight shadow effect */
+    font-style: italic;
+    z-index: -1;
+}
+.text5 {
+    text-align: center;
+    position: absolute;
+    bottom: 375px;
+    left: 380px;
+    font-size: 21px;
+    font-size: 1.8rem;
+    font-family: monospace;
+    color: rgb(0, 0, 0); /* Set text color to white */
+    text-shadow: 1px 1px 2px rgb(0, 0, 0); /* Add a slight shadow effect */
+    font-style: italic;
+    z-index: -1;
+}
+.text6 {
+    text-align: center;
+    position: absolute;
+    bottom: 25px;
+    left: 380px;
+    font-size: 21px;
+    font-size: 1.8rem;
+    font-family: monospace;
+    color: rgb(0, 0, 0); /* Set text color to white */
+    text-shadow: 1px 1px 2px rgb(0, 0, 0); /* Add a slight shadow effect */
+    font-style: italic;
+    z-index: -1;
+}
+.text7 {
+    text-align: center;
+    position: absolute;
+    top:210px;
+    left: 120px;
+    font-size: 21px;
+    font-size: 2.2rem;
+    font-family: monospace;
+    color: rgb(255, 249, 249); /* Set text color to white */
+    text-shadow: 1px 1px 2px rgb(0, 0, 0); /* Add a slight shadow effect */
+    font-style: italic;
+    z-index: 1001;
+}
+
+.container1 {
+    position: absolute;
+    bottom: 20px;
+    left: 120px;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 8%;
+}
+
+.controller {
+    position: absolute;
+    bottom: 50px;
+    left: 220px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 5px 1px rgb(0, 0, 0);
+    z-index: 1000;
+    width: var(--controller-width, 440px);
+    height: auto; 
+}
+
+
+
+
+.text1 p span {
+    display: block;
+    white-space: nowrap; /* Prevent line breaks */
+}
+.text1 p span:nth-child(1) {
+    top:300px;
+    left: 150px;
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 4px 2px rgb(255, 255, 255); /* Add a slight shadow effect */
+}
+.text1 p span:nth-child(10) {
+    top:300px;
+    left: 150px;
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    text-shadow: 2px 4px 2px rgb(255, 255, 255); /* Add a slight shadow effect */
+}
+
+.text2 p span {
+    display: block;
+    white-space: nowrap; /* Prevent line breaks */
+}
+.text2 p span:nth-child(1) {
+    top:300px;
+    left: 150px;
+    font-size: 2.2rem;
+    color: rgb(255, 255, 255);
+
+    margin-bottom: 10px;
+    text-shadow: 4px 8px 2px rgb(0, 0, 1); /* Add a slight shadow effect */
+}
+
+.text2 p span:nth-child(12) {
+    top:300px;
+    left: 150px;
+    font-size: 2.2rem;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+
+    text-shadow: 4px 5px 2px rgb(0, 0, 1); /* Add a slight shadow effect */
+}
+
+
+.text3 p span {
+    display: block;
+    white-space: nowrap; /* Prevent line breaks */
+}
+.text4 p span {
+    display: block;
+    white-space: nowrap; /* Prevent line breaks */
+}
+.text5 p span {
+    display: block;
+    white-space: nowrap; /* Prevent line breaks */
+}
+.text6 p span {
+    display: block;
+    white-space: nowrap; /* Prevent line breaks */
+}
+.text7 p span {
+    display: block;
+    white-space: nowrap; /* Prevent line breaks */
+}
+.text7 p span:nth-child(1) {
+    top:210px;
+    left: 150px;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+}
+.text7 p span:nth-child(2) {
+    top:300px;
+    left: 150px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 5px 2px rgb(0, 0, 1); /* Add a slight shadow effect */
+}
+.text7 p span + span {
+    margin-top: 50px; /* Adjust the value to increase or decrease the space */
+}
+.social-link {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.social-link img {
+    
+    height: 50px;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
