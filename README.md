@@ -4,6 +4,7 @@
 ### Overview
 PS5 Controller Hub is a marketing website dedicated to showcasing the latest features, designs, and innovations of the PlayStation 5 (PS5) controller. Our platform aims to provide comprehensive information about the PS5 controller's capabilities, accessories, and compatibility with gaming systems.
 
+![controller](CONTROLLER_HUB.png)
 ### Features
 - **Product Showcase**: Explore the sleek design and cutting-edge features of the PS5 controller through high-resolution images and interactive galleries.
 - **Technical Specifications**: Dive into the technical specifications of the PS5 controller, including advanced haptic feedback, adaptive triggers, and motion sensors.
